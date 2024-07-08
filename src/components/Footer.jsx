@@ -5,7 +5,7 @@ let year = new Date().getFullYear();
 function Footer() {
   return (
     <footer>
-      <p>gouri-learning © {year}</p>
+      <p>gouri-shankar-learning © {year}</p>
     </footer>
   );
 }
