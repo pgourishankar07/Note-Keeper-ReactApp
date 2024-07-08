@@ -1,4 +1,5 @@
 import React from "react";
+import addIcon from "./Animation - 1720412150645.gif";
 
 function Create(props) {
   let [note, setNote] = React.useState({
@@ -36,7 +37,9 @@ function Create(props) {
           value={note.content}
           rows="3"
         />
-        <button onClick={submitNote}>+</button>
+        <button onClick={submitNote}>
+          <img src={addIcon} width={36} height={36} />
+        </button>
       </form>
     </div>
   );
